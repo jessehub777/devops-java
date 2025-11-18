@@ -1,4 +1,4 @@
-FROM amazoncorretto:21-alpine-jre
+FROM amazoncorretto:21-alpine
 COPY devops-java.jar /usr/local/devops-java.jar
 WORKDIR /usr/local
 EXPOSE 8080
