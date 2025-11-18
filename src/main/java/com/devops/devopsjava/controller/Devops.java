@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Devops {
     @GetMapping("/welcome")
     public String home() {
-        return "Welcome to DevOps with Java!!! v1.0.0";
+        return "Welcome to DevOps with Java!!! v2.0.0";
     }
 }

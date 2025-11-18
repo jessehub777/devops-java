@@ -4,7 +4,7 @@ services:
       context: ./
       dockerfile: Dockerfile
 
-    image: devopsjava:v1.0.0
+    image: devopsjava:v2.0.0
     container_name: devops_container
     ports:
       - "8081:8080"
