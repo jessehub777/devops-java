@@ -1,0 +1,12 @@
+services:
+  devopsjava:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
+    image: devopsjava:v1.0.0
+    container_name: devops_container
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+
